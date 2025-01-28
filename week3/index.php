@@ -60,7 +60,6 @@
         // Beginning of the exercise, place all of your PHP code here
 
         if($linkName == ''){
-            echo '<h2>'.$linkName.'</h2>';
             echo '<a href="' .$linkURL. '">' .$linkURL . '</a>'; 
             echo '<img src="'. $linkImage.'">';
             echo '<p>'.$linkDescription.'</p>';
