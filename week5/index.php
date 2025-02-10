@@ -27,7 +27,7 @@
 
     while($record = mysqli_fetch_assoc($colors)){
         // echo "<pre>" . print_r($record) . "</pre>";
-        echo '<div style="background-color:' . $record["Hex"] . '; width:100%; margin:1em; height:100px; text-align:center; align-content:center; font-size:1.2em; font-weight:bold">' . $record["Name"] . '</div>';
+        echo '<div style="background-color:' . $record["Hex"] . '; width:100%; margin:1em; height:100px; text-align:center; align-content:center; font-size:1.2em; font-weight:bold; border:1.5px dashed black;">' . $record["Name"] . '</div>';
     }
 
 
