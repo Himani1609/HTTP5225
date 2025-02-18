@@ -23,11 +23,11 @@ for($x = 0; $x < Count($users); $x++){
     echo "Username: " . $users[$x]["username"] . "<br>";
     echo "Email: " . $users[$x]["email"] . "<br>";
     echo "Address: " . $users[$x]["address"]["suite"] . "," . $users[$x]["address"]["street"] . "," . $users[$x]["address"]["city"] . "<br>";
-    // $latitude = $users[$x]["address"]["geo"]["lat"];
-    // $longitude = $users[$x]["address"]["geo"]["lng"];
-    // $apiKey = 'AIzaSyCwoOn6vi6g5sHQie6Ux-h_rAv_HgVLvlk';
-    // $mapUrl = "https://maps.googleapis.com/maps/api/staticmap?center=$latitude,$longitude&zoom=12&size=600x400&markers=$latitude,$longitude&key=$apiKey";
-    // echo "<img src='$mapUrl' alt='Map' />";
+    $latitude = $users[$x]["address"]["geo"]["lat"];
+    $longitude = $users[$x]["address"]["geo"]["lng"];
+    $apiKey = 'AIzaSyCwoOn6vi6g5sHQie6Ux-h_rAv_HgVLvlk';
+    $mapUrl = "https://maps.googleapis.com/maps/api/staticmap?center=$latitude,$longitude&zoom=12&size=600x400&markers=$latitude,$longitude&key=$apiKey";
+    echo "<img src='$mapUrl' alt='Map' />";
     echo "<br>"; 
     echo "<br>";
     echo "<br>";
