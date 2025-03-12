@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 5</title>
 </head>
+
 <body>
+
 <?php
     // Connection String -  Always save your connection string in a variable
     // parameters - localhost, username, password, database name (for XAMP - username and password will be root and root)
@@ -32,5 +34,7 @@
 
 
 ?>    
+
 </body>
+
 </html>

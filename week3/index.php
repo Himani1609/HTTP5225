@@ -1,8 +1,10 @@
 <!doctype html>
 <html>
+
     <head>
         <title>PHP If Statements</title> 
     </head>
+
     <body>
 
         <h1>PHP If Statements</h1> 
@@ -18,7 +20,7 @@
         $randomNumber = ceil(rand(1,3));
 
         // Display the random number
-        echo '<p>The random number is '.$randomNumber.'.</p>';
+        echo '<p>The random number is '. $randomNumber .'.</p>';
 
         // Based on the random number PHP will define four variables and fill them with information about Codecademy, W3Schools, or MDN
         

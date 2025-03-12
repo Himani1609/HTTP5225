@@ -33,7 +33,7 @@ include('reusables/nav.php');
 
     foreach($schools as $school){
       echo '<div class="col-md-4"> 
-      <div class="card" mb-4 style="">
+      <div class="card" mb-4>
       <div class="card-body">
         <h5 class="card-title"> '.$school['Board'] . '</h5>
         <span class="badge bg-primary">'.$school['School Type'].'</span>
